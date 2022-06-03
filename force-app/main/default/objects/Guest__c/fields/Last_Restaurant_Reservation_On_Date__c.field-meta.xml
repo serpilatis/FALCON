@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Last_Restaurant_Reservation_On_Date__c</fullName>
+    <externalId>false</externalId>
+    <label>Last Restaurant Reservation On Date</label>
+    <summarizedField>Guest_Reservation__c.Resevation_Date_Time__c</summarizedField>
+    <summaryForeignKey>Guest_Reservation__c.Guests__c</summaryForeignKey>
+    <summaryOperation>max</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

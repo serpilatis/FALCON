@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fee_Check</fullName>
+    <active>true</active>
+    <description>Fee value cannot be less than $5000</description>
+    <errorConditionFormula>Fee__c &lt; 5000</errorConditionFormula>
+    <errorDisplayField>Fee__c</errorDisplayField>
+    <errorMessage>Fee value cannot be less than $5000</errorMessage>
+</ValidationRule>

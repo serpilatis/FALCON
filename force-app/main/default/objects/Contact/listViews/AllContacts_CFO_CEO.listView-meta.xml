@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AllContacts_CFO_CEO</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>CONTACT.TITLE</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CONTACT.DEPARTMENT</columns>
+    <filterScope>Mine</filterScope>
+    <label>All Contacts- CFO &amp; CEO</label>
+    <sharedTo>
+        <roleAndSubordinates>CEO</roleAndSubordinates>
+        <roleAndSubordinates>CFO</roleAndSubordinates>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Only_Current_Year</fullName>
+    <active>true</active>
+    <description>Year of clos date must be in the current year</description>
+    <errorConditionFormula>YEAR( CloseDate )  &lt;&gt;   YEAR( TODAY() )</errorConditionFormula>
+    <errorDisplayField>CloseDate</errorDisplayField>
+    <errorMessage>Year of clos date must be in the current year</errorMessage>
+</ValidationRule>

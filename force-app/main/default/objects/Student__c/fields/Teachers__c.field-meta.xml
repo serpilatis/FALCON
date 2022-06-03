@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Teachers__c</fullName>
+    <externalId>false</externalId>
+    <label>Teachers</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Teaching_Area__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Teachers</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Math</controllingFieldValue>
+            <valueName>Ahlet B.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Math</controllingFieldValue>
+            <valueName>Osman C.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Math</controllingFieldValue>
+            <valueName>Ayse G.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Math</controllingFieldValue>
+            <valueName>Sema K.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Biology</controllingFieldValue>
+            <valueName>Ali D</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Biology</controllingFieldValue>
+            <valueName>Burak A.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Biology</controllingFieldValue>
+            <valueName>Ayla N.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Music</controllingFieldValue>
+            <valueName>Tuba S.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Music</controllingFieldValue>
+            <valueName>Azra A.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Music</controllingFieldValue>
+            <valueName>Oktay Y.</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

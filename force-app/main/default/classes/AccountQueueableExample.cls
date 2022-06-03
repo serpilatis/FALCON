@@ -1,3 +1,4 @@
+//queueable accounts class.
 public with sharing class AccountQueueableExample implements Queueable{
     public list<account> listAccount;
     //contructor acception list of accounts.

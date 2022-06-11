@@ -4,6 +4,7 @@ public with sharing class AnimalsCallouts {
     private static string POST_ANIMALS_ENDPOINT = CalloutInfo__mdt.getInstance('POST_ANIMALS').Endpoint__c;
     private static string HTTP_GET = 'GET';
     private static string HTTP_POST = 'POST';
+    
     public static void fetchAnimals() {
         //1. prepare request
         HttpRequest request = new HttpRequest();

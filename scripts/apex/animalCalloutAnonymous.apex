@@ -4,6 +4,8 @@ AnimalsCallouts.fetchAnimals2();
 
 AnimalsCallouts.postAnimal();
 
+DummyPostCallout.postCallout();
+
 
 
 // object o = new list<string>{'test', 'test1'};

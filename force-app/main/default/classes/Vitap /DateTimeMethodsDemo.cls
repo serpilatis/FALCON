@@ -39,5 +39,4 @@ public  class DateTimeMethodsDemo {
        date offerEndDate = dtOfferEnd.date();
        system.debug('offer end date is ' + offerEndDate);
     }
-    
 }

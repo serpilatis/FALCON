@@ -27,6 +27,21 @@ trigger AccountTrigger on Account (before insert, before update, after insert, a
     
     
     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
     
  //========================================================================   
     /*if(trigger.isBefore && trigger.isUpdate){

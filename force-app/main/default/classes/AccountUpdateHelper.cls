@@ -14,7 +14,3 @@ public with sharing class AccountUpdateHelper {
             }
     }
 }
-
-       
-   
-

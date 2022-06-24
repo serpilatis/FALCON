@@ -39,9 +39,9 @@ public with sharing class DummyPostCallout {
             //insert + update
             //if Id is found --> update
             //if ID NOT found --> insert
-            upsert listPosts id__c;
+            //upsert listPosts id__c;
 
-            //insert listPosts;
+            insert listPosts;
 
             //for each loop on list<post> from wrapper class
                 //Post__c p = new Post__c();

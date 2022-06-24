@@ -12,25 +12,4 @@ public  class OpportunityTriggerHandler {
             }
         }
 }
-
-// Practice Question(Assignment)
-// Note: Please Write a trigger for the object Opportunity Classes.  
-// • Create a class with the following methods. 
-// o Create one Account Record. 
-// o Create a method which accepts Account ID as parameter and create few 
-// opportunity records with name = ‘’ Prospecting” and few records with 
-// Stage = ‘’ Qualification”. 
-// o Create a Trigger for Opportunity object with handler class which updates 
-// close date as Todays date with stage= ‘Opportunity
- 
-// • Write a Test class for the above code. 
-// o Use Test.starttest 
-// o Use an Assert statement with close date of opportunity object. 
-// o Use Test.stoptest 
-    public static void createAccount(id accId){
-        account ac = new Account();
-        acc.Name = ''
-
-
-    }
 }

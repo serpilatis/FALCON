@@ -5,4 +5,8 @@ public  class HWemployeeDetails {
        system.debug('Employee email is: ' + email);
        system.debug('Employee phone is ' + phone);
    }
+   
+
+
+    
 }

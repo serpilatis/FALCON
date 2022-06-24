@@ -10,6 +10,6 @@ public  class Cat {
         sleeping();
     }
     public void sleeping(){
-        system.debug(name + ' is sleeping ');
+        system.debug(name + 'is sleeping');
     }
 }

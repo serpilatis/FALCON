@@ -26,14 +26,6 @@ public class StringDemoClass {
         boolean containsSalesforce = sessionDescription.contains('salesforce');
         system.debug('has salesforce? ' + containsSalesforce);
 
-        //4.
-        string apexx = 'apex';
-        string ap = 'APEXX';
-        //euals check if two strings are same or not.
-        //if same returns true.
-        //string1.equals(string2)
-        boolean apexCheck = apexx.equals(ap);
-        system.debug('apex check ' + apexCheck);
 
 
     }

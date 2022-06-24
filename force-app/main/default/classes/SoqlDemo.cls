@@ -39,17 +39,10 @@ public  class SoqlDemo {
             system.debug('==================================');
         }
     }
-
-
-
     public static void soqlDemo_Filter() {
         string accNameFilter = 'Softinnovas';
  
         list<account> listAcc = [select name from account where name = :accNameFilter];
         system.debug(listAcc);
-    } 
-    
- }   
- 
-     
-
+    }
+ }

@@ -32,7 +32,7 @@ public  class ListDemo {
         listInteger.add(15); //index=1
         listInteger.add(21); //index=2
         listInteger.add(15); //index=3
-        listInteger.add(16); //index=4
+        listInteger.add(15); //index=4
 
         //get index 3 value.
         integer index3value = listInteger.get(3);

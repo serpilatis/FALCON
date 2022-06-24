@@ -10,6 +10,3 @@ trigger CaseTrigger on Case (before insert, before update) {
         system.debug('# of records updated = ' + CaseTriggerHandler.countRecordsUpdate);
     }
 }
-
-
-

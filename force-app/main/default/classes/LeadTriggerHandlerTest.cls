@@ -1,6 +1,5 @@
 @isTest 
 public  class LeadTriggerHandlerTest {
-    //Turkce ODEV
     @isTest 
     public static void updateDefaultLeadDetails(){
         List<Lead> listLead = new List<Lead>();
@@ -26,5 +25,3 @@ public  class LeadTriggerHandlerTest {
         test.stopTest();      
     }      
 }
-    
-

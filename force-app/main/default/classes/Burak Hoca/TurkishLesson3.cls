@@ -43,7 +43,6 @@ public  class TurkishLesson3 {
             System.debug(x + ' Sayiniz 0');
         }
     }
-
         
 
 }

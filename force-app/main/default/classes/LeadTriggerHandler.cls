@@ -1,5 +1,4 @@
 public with sharing class LeadTriggerHandler {
-    //Turkce ODEV
     public static void updateDefaultLeadDetails(List<Lead> newList){
         for(Lead ld : newList){
             if(ld.LeadSource == 'Web'){

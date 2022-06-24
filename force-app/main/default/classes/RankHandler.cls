@@ -39,5 +39,3 @@ public class RankHandler {
         return prize;
     }
  }
-
-

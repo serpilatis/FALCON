@@ -1,6 +1,5 @@
 @isTest
 public  class AccountTriggerTest {
-    //AccountTriggerHandlerTest(bu class )
     @isTest
    private static void testMethod1(){
     Account acc1 = new account();
@@ -73,5 +72,3 @@ private static void testMethod2() {
 
 
 }
-
-

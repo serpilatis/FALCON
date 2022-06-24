@@ -63,23 +63,11 @@ public  class PrimitiveDataTypeDemo2 {
      long currentLongTime = currentDT.getTime();
         system.debug('current long time : ' + currentLongTime);
     }
-    private void someMethod(){
-      system.debug()
-    }
-
-    public void printAll(){
-      //can I call other methods of same class here?
-      //HOW
-      someMethod();
-      printNewDateTime();//first
-      printNewTime();
-      printNewDate();
-    }
 
     
 
   
-}
-
     
- 
+
+
+}

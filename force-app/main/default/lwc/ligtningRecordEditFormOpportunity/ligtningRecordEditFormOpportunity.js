@@ -11,7 +11,7 @@ import CLOSEDATE_FIELD from '@salesforce/schema/Opportunity.CloseDate';
 
 export default class LigtningRecordEditFormOpportunity extends LightningElement {
     //recordId = "0065f0000092EZGAA2";
-    @api recordId;
+    @api recordId;//this propertynname will be public/global with @api
     objectName = OPPORTUNITY_OBJECT;
 
     fields={

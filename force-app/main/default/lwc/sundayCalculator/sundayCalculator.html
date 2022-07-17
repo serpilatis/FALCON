@@ -1,0 +1,20 @@
+<template>
+    <lightning-card title="CALCULATOR">
+        <div class="slds-var-m-around_medium">
+            <lightning-input
+            label="Enter the first number"
+            onchange={firstNumHandler}
+            type="number"
+            value={firstNumber}>        
+        </lightning-input>
+
+        <lightning-input
+        label="Enter the second number"
+        onchange={secondNumHandler}
+        type="number"
+        value={secondNumber}>       
+    </lightning-input>
+    <div>Total is:{sum}</div>
+        </div>
+    </lightning-card>
+</template>
